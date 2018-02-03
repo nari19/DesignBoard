@@ -1,0 +1,53 @@
+<nav class="navbar navbar-fixed-top" style="box-shadow:5px 5px 7px -4px #ddd;background-color:#fff;">
+  <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar" style="font-size:1.3em;color:#3cf;padding-bottom:5px;"><i class="fa fa-align-justify"></i></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          <!-- ★★★★下記の#を後ほど正しいURLに変更 -->
+      <a class="navbar-brand" href="/posts" style="font-family:'arial black';color:#51bde1;margin-left:10px;font-size:1.7em;">Design Board</a>
+    </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         
+      </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container">
+  <div class="row">
+    
+
+  <div class="col-md-8 col-md-offset-2" style="padding:70px;font-family:'Trebuchet';color:#557;">
+    <!--<h1>投稿</h1>-->
+    <%= form_with model: @post, local: true do |form| %>
+      <div class="form-group">
+        <%= form.label "タイトル" %>
+        <%= form.text_field :title, class: "form-control" %>
+      </div>
+      <div class="form-group" style="width:150px;" >
+        <%= form.label "color 1" %>
+        <%= form.text_field :color1, class: 'form-control'  %>
+      </div>
+      <div class="form-group"style="width:150px;">
+        <%= form.label "color 2" %>
+        <%= form.text_field :color2, class: "form-control" %>
+      </div>
+      <div class="form-group" style="width:150px;">
+        <%= form.label "color 3" %>
+        <%= form.text_field :color3, class: "form-control" %>
+      </div>
+      <p class="help-block">※colorには＃（cmykカラー）で入力してください.<br/>
+         数字3桁、もしくは6桁で登録可能です.</p>
+             <%= form.submit '投稿する', class: "btn btn-info pull-right" %>
+    <% end %>
+    
+  </div>
+ </div>
+</div>
+
