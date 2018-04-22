@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://design-nowallcloud9-004.c9users.io:8080/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>DesignApp</title>
+    <link rel="stylesheet" href="./DesignApp_files/font-awesome.min.css">
+    <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="bNKeAh5oY7ILP0hYNdZq23FSp3AZCzRy2N1c9WLPfca6SMyc2k3Y6rdTr5QSVnUGj6aBOKvbZimRzZhqd1PNGg==">
+    <link rel="stylesheet" media="all" href="./DesignApp_files/posts.self-5eb00deeb190829562e9fddf30719ef8fb79b508d9030a5d7d86f7ac902bf834.css" data-turbolinks-track="reload">
+<link rel="stylesheet" media="all" href="./DesignApp_files/application.self-4b6e507675809e4719819775d46840a1ae0e6ddcdc46cc56ec0cfc292a7b2620.css" data-turbolinks-track="reload">
+<script src="./DesignApp_files/rails-ujs.self-661556f443fbae7f6cec8f2cd394aa5e8186cb3f96aded9628126d3484eaa71a.js" data-turbolinks-track="reload"></script>
+<!-- <script src="./DesignApp_files/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js" data-turbolinks-track="reload"></script> -->
+<script src="./DesignApp_files/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/action_cable.self-be3674a79bb9d13d41d259b2c17fad23aef20946dab3603b9d02374ea795005f.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js" data-turbolinks-track="reload"></script>
+<script src="./DesignApp_files/application.self-d9c1df0d36a69bf8167ebb20070284ed3c5f931e7f6efe185b0936aad00629a6.js" data-turbolinks-track="reload"></script>
+  </head>
+
+  <body class="bg-info">
+    
+    
+    
+  
+        
+<!--30-->
+
+<nav class="navbar navbar-fixed-top" style="box-shadow:5px 5px 7px -4px #ddd;background-color:#fff;">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar" style="font-size:1.3em;color:#3cf;padding-bottom:5px;"><i class="fa fa-align-justify"></i></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- ★★★★下記の#を後ほど正しいURLに変更 -->
+          <a class="navbar-brand button" href="http://design-nowallcloud9-004.c9users.io:8080/posts" style="font-family:&#39;arial black&#39;;color:#51bde1;margin-left:10px;font-size:1.7em;">Design Board</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- ★★★★下記の#を後ほど正しいURLに変更 -->
+            
+            
+<li>
+<div class="col-md-12">
+ <div class="form-inline pull-left">
+   <form class="post_search" id="post_search" action="http://design-nowallcloud9-004.c9users.io:8080/posts" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+     <div class="input-group" style="padding-top:8px;margin-bottom:10px;">
+       <input placeholder="タイトルを検索" class="form-control" type="search" name="q[title_cont]" id="q_title_cont">
+       <!--<input type="submit" name="commit" value="検索" class="btn btn-primary" data-disable-with="検索" />-->
+       <span class="input-group-btn">
+    <button class="btn btn-info" type="submit">
+      <i class="glyphicon glyphicon-search"></i>
+    </button>
+  </span>
+     </div>
+</form> </div>
+</div>
+<div class="row"></div>
+</li>
+<!-- <li><a href="http://design-nowallcloud9-004.c9users.io:8080/posts/new" class="btn btn-info btn-xs center-block">Create</a></li> -->
+<li><a href="DesignApp_files/contribution.htm" class="btn btn-info btn-xs center-block">Create</a></li>
+
+    
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+      <div class="row">
+    
+
+
+
+
+
+
+
+
+
+
+
+<div class="list-group">
+
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">カラー１</h2>
+               <p style="font-size:1em;"><span style="color:#ff0;">●</span>#ff0</p>
+               <p style="font-size:1em;"><span style="color:#0f0;">●</span>#0f0</p>
+               <p style="font-size:1em;"><span style="color:#00f;">●</span>#00f</p>
+               <p style="font-size:0.8em;">作成日：2017-08-12 11:25:34 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #00f 33%,
+                                          #0f0 33%, #0f0 66%,
+                                          #ff0 50%, #ff0 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">Test</h2>
+               <p style="font-size:1em;"><span style="color:#ff0;">●</span>#ff0</p>
+               <p style="font-size:1em;"><span style="color:#f0f;">●</span>#f0f</p>
+               <p style="font-size:1em;"><span style="color:#0ff;">●</span>#0ff</p>
+               <p style="font-size:0.8em;">作成日：2017-08-12 10:02:09 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #0ff 33%,
+                                          #f0f 33%, #f0f 66%,
+                                          #ff0 50%, #ff0 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">ソフト</h2>
+               <p style="font-size:1em;"><span style="color:#f5f5d7;">●</span>#f5f5d7</p>
+               <p style="font-size:1em;"><span style="color:#d7eef5;">●</span>#d7eef5</p>
+               <p style="font-size:1em;"><span style="color:#f5d7de;">●</span>#f5d7de</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:39:06 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #f5d7de 33%,
+                                          #d7eef5 33%, #d7eef5 66%,
+                                          #f5f5d7 50%, #f5f5d7 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">ディープ</h2>
+               <p style="font-size:1em;"><span style="color:#8a8a0f;">●</span>#8a8a0f</p>
+               <p style="font-size:1em;"><span style="color:#8a0f4c;">●</span>#8a0f4c</p>
+               <p style="font-size:1em;"><span style="color:#0f8a8a;">●</span>#0f8a8a</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:37:56 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #0f8a8a 33%,
+                                          #8a0f4c 33%, #8a0f4c 66%,
+                                          #8a8a0f 50%, #8a8a0f 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">ライト</h2>
+               <p style="font-size:1em;"><span style="color:#f8f86e;">●</span>#f8f86e</p>
+               <p style="font-size:1em;"><span style="color:#6ed5f8;">●</span>#6ed5f8</p>
+               <p style="font-size:1em;"><span style="color:#8cf86e;">●</span>#8cf86e</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:34:55 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #8cf86e 33%,
+                                          #6ed5f8 33%, #6ed5f8 66%,
+                                          #f8f86e 50%, #f8f86e 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">アクティブ</h2>
+               <p style="font-size:1em;"><span style="color:#c7f53d;">●</span>#c7f53d</p>
+               <p style="font-size:1em;"><span style="color:#ffc000;">●</span>#ffc000</p>
+               <p style="font-size:1em;"><span style="color:#f53d99;">●</span>#f53d99</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:33:18 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #f53d99 33%,
+                                          #ffc000 33%, #ffc000 66%,
+                                          #c7f53d 50%, #c7f53d 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">ビビット</h2>
+               <p style="font-size:1em;"><span style="color:#00c0ff;">●</span>#00c0ff</p>
+               <p style="font-size:1em;"><span style="color:#c0ff00;">●</span>#c0ff00</p>
+               <p style="font-size:1em;"><span style="color:#ff0000;">●</span>#ff0000</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:32:15 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #ff0000 33%,
+                                          #c0ff00 33%, #c0ff00 66%,
+                                          #00c0ff 50%, #00c0ff 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">アーバン</h2>
+               <p style="font-size:1em;"><span style="color:#fff3cc;">●</span>#fff3cc</p>
+               <p style="font-size:1em;"><span style="color:#94b3d1;">●</span>#94b3d1</p>
+               <p style="font-size:1em;"><span style="color:#73798c;">●</span>#73798c</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:23:53 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #73798c 33%,
+                                          #94b3d1 33%, #94b3d1 66%,
+                                          #fff3cc 50%, #fff3cc 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">キッズ</h2>
+               <p style="font-size:1em;"><span style="color:#ffe699;">●</span>#ffe699</p>
+               <p style="font-size:1em;"><span style="color:#ebaebd;">●</span>#ebaebd</p>
+               <p style="font-size:1em;"><span style="color:#aedceb;">●</span>#aedceb</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:22:17 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #aedceb 33%,
+                                          #ebaebd 33%, #ebaebd 66%,
+                                          #ffe699 50%, #ffe699 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">ミステリアス</h2>
+               <p style="font-size:1em;"><span style="color:#ccb8e1;">●</span>#ccb8e1</p>
+               <p style="font-size:1em;"><span style="color:#b34cb3;">●</span>#b34cb3</p>
+               <p style="font-size:1em;"><span style="color:#6628a3;">●</span>#6628a3</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:20:10 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #6628a3 33%,
+                                          #b34cb3 33%, #b34cb3 66%,
+                                          #ccb8e1 50%, #ccb8e1 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">キュート</h2>
+               <p style="font-size:1em;"><span style="color:#fff1cc;">●</span>#fff1cc</p>
+               <p style="font-size:1em;"><span style="color:#f5b8a3;">●</span>#f5b8a3</p>
+               <p style="font-size:1em;"><span style="color:#e87db3;">●</span>#e87db3</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:16:23 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #e87db3 33%,
+                                          #f5b8a3 33%, #f5b8a3 66%,
+                                          #fff1cc 50%, #fff1cc 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">カジュアル</h2>
+               <p style="font-size:1em;"><span style="color:#ffd9cc;">●</span>#ffd9cc</p>
+               <p style="font-size:1em;"><span style="color:#f56b3d;">●</span>#f56b3d</p>
+               <p style="font-size:1em;"><span style="color:#66d9ff;">●</span>#66d9ff</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:14:38 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #66d9ff 33%,
+                                          #f56b3d 33%, #f56b3d 66%,
+                                          #ffd9cc 50%, #ffd9cc 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">クラシック</h2>
+               <p style="font-size:1em;"><span style="color:#dcdcbd;">●</span>#dcdcbd</p>
+               <p style="font-size:1em;"><span style="color:#c0a040;">●</span>#c0a040</p>
+               <p style="font-size:1em;"><span style="color:#828217;">●</span>#828217</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:11:55 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #828217 33%,
+                                          #c0a040 33%, #c0a040 66%,
+                                          #dcdcbd 50%, #dcdcbd 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">エレガント</h2>
+               <p style="font-size:1em;"><span style="color:#ebe1e8;">●</span>#ebe1e8</p>
+               <p style="font-size:1em;"><span style="color:#c2a3c2;">●</span>#c2a3c2</p>
+               <p style="font-size:1em;"><span style="color:#c270ae;">●</span>#c270ae</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:10:09 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #c270ae 33%,
+                                          #c2a3c2 33%, #c2a3c2 66%,
+                                          #ebe1e8 50%, #ebe1e8 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">クリアー</h2>
+               <p style="font-size:1em;"><span style="color:#d7e6f5;">●</span>#d7e6f5</p>
+               <p style="font-size:1em;"><span style="color:#6eb3f8;">●</span>#6eb3f8</p>
+               <p style="font-size:1em;"><span style="color:#a8f0cc;">●</span>#a8f0cc</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:08:14 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #a8f0cc 33%,
+                                          #6eb3f8 33%, #6eb3f8 66%,
+                                          #d7e6f5 50%, #d7e6f5 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">パステル</h2>
+               <p style="font-size:1em;"><span style="color:#b8b8e1;">●</span>#b8b8e1</p>
+               <p style="font-size:1em;"><span style="color:#b8e1cc;">●</span>#b8e1cc</p>
+               <p style="font-size:1em;"><span style="color:#e1b8cc;">●</span>#e1b8cc</p>
+               <p style="font-size:0.8em;">作成日：2017-08-06 05:06:01 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #e1b8cc 33%,
+                                          #b8e1cc 33%, #b8e1cc 66%,
+                                          #b8b8e1 50%, #b8b8e1 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">フォーマル</h2>
+               <p style="font-size:1em;"><span style="color:#D7D7C2;">●</span>#D7D7C2</p>
+               <p style="font-size:1em;"><span style="color:#515C7A;">●</span>#515C7A</p>
+               <p style="font-size:1em;"><span style="color:#178282;">●</span>#178282</p>
+               <p style="font-size:0.8em;">作成日：2017-08-05 06:52:29 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #178282 33%,
+                                          #515C7A 33%, #515C7A 66%,
+                                          #D7D7C2 50%, #D7D7C2 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">エスニック</h2>
+               <p style="font-size:1em;"><span style="color:#D9AC26;">●</span>#D9AC26</p>
+               <p style="font-size:1em;"><span style="color:#821717;">●</span>#821717</p>
+               <p style="font-size:1em;"><span style="color:#739900;">●</span>#739900</p>
+               <p style="font-size:0.8em;">作成日：2017-08-05 06:50:49 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #739900 33%,
+                                          #821717 33%, #821717 66%,
+                                          #D9AC26 50%, #D9AC26 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">ポップ</h2>
+               <p style="font-size:1em;"><span style="color:#FFFF99;">●</span>#FFFF99</p>
+               <p style="font-size:1em;"><span style="color:#6ED5F8;">●</span>#6ED5F8</p>
+               <p style="font-size:1em;"><span style="color:#FFC000;">●</span>#FFC000</p>
+               <p style="font-size:0.8em;">作成日：2017-08-05 06:48:54 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #FFC000 33%,
+                                          #6ED5F8 33%, #6ED5F8 66%,
+                                          #FFFF99 50%, #FFFF99 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">フェミニン</h2>
+               <p style="font-size:1em;"><span style="color:#F8D4D4;">●</span>#F8D4D4</p>
+               <p style="font-size:1em;"><span style="color:#B87A99;">●</span>#B87A99</p>
+               <p style="font-size:1em;"><span style="color:#F5A3B8;">●</span>#F5A3B8</p>
+               <p style="font-size:0.8em;">作成日：2017-08-05 06:47:06 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #F5A3B8 33%,
+                                          #B87A99 33%, #B87A99 66%,
+                                          #F8D4D4 50%, #F8D4D4 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">トイ</h2>
+               <p style="font-size:1em;"><span style="color:#C7F53D;">●</span>#C7F53D</p>
+               <p style="font-size:1em;"><span style="color:#FFC000;">●</span>#FFC000</p>
+               <p style="font-size:1em;"><span style="color:#F53D99;">●</span>#F53D99</p>
+               <p style="font-size:0.8em;">作成日：2017-08-05 06:39:01 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #F53D99 33%,
+                                          #FFC000 33%, #FFC000 66%,
+                                          #C7F53D 50%, #C7F53D 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  <div class="low" style="margin-top:60px;">  
+      <div class="col-xs-12 col-sm-6 col-md-4">
+       <div class="low">
+        <div class="list-group-item clearfix" style="box-shadow:5px 5px 7px -3px #ddd;">
+          <div class="col-xs-5 col-sm-6 col-md-6">
+           <div class="article">
+               <h2 style="font-size:1.3em;">ナチュラル</h2>
+               <p style="font-size:1em;"><span style="color:#F0F0DC;">●</span>#F0F0DC</p>
+               <p style="font-size:1em;"><span style="color:#EDD898;">●</span>#EDD898</p>
+               <p style="font-size:1em;"><span style="color:#99C270;">●</span>#99C270</p>
+               <p style="font-size:0.8em;">作成日：2017-08-05 06:33:17 UTC</p>
+          
+           </div>
+          </div>
+        
+      
+             <div class="col-xs-7 col-sm-6 col-md-6">
+             <div class="figure" style="background-image: linear-gradient(
+                                          45deg,
+                                          #99C270 33%,
+                                          #EDD898 33%, #EDD898 66%,
+                                          #F0F0DC 50%, #F0F0DC 
+                                    );
+                         height:150px;
+                         width:100%;
+                         margin-top:12px;
+                         border-radius:30px;"></div>
+         </div>
+       </div>
+       </div>
+      </div>
+  </div>
+  
+ </div>
+
+  
+    
+  
+  
+      </div>
+    </div>
+
+  
+
+</body></html>
