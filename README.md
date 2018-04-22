@@ -1,7 +1,7 @@
 推奨環境　
 	デバイス:pc     ブラウザ:chrome
 	
- https://nari19.github.io/DesignBoard/index.htm 
+ https://nari19.github.io/DesignBoard/
 
 せっかくrailsで書いたのですが、セキュリティやコストの面もあるので、JSの部分だけで
 静的に公開します<br>
