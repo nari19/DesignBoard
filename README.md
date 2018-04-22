@@ -1,5 +1,6 @@
 推奨環境　
 	デバイス:pc     ブラウザ:chrome
+	
  https://nari19.github.io/DesignBoard/index.htm 
 
 せっかくrailsで書いたのですが、セキュリティやコストの面もあるので、JSの部分だけで
