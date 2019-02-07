@@ -1,20 +1,13 @@
 
   <div class="col-md-12">
-   <h1><%= @post.title %></h1>
-   <p>color 1: <%= @post.color1 %></p>
-   <p>color 2: <%= @post.color2 %></p>
-   <p>color 3: <%= @post.color3 %></p>
-   <p>投稿日:<%= @post.created_at %></p>
-   <hr>
+    <h1><%= @post.title %></h1>
+    <p>color 1: <%= @post.color1 %></p>
+    <p>color 2: <%= @post.color2 %></p>
+    <p>color 3: <%= @post.color3 %></p>
+    <p>投稿日:<%= @post.created_at %></p>
+    <hr>
   </div>
-
-
   
-
-
-
-    
-</div>
   <%= link_to "編集", edit_post_path(@post), class: "btn btn-default" %>
   <%= link_to "削除", post_path(@post), class: "btn btn-default", method: :delete %>
 
